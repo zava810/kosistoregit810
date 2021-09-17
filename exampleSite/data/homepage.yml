@@ -1,0 +1,117 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "कोसी किसान स्टोर -- ताजा खाद्य उत्पाद kosi kisan store -- Taza khaDhy products"
+  content : "ताज़े अनाज से बनी ताज़ी रोटियाँ fresh Anaz se bni fresh rotiya"
+  image : "images/Anaz5.jpeg"
+  # button
+  button:
+    enable : true
+    label : "सारे प्रोडक्ट्स all products"
+    link : "products"
+  # demo video
+  video:
+    enable : true
+    videoURL : "https://youtu.be/jYi8dSLQvRo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "हमारे उत्पाद के बारे में"
+  content : "अभी कुछ यहाँ लिखना है Abhi kuch yha likhna h."
+  image : "images/Anaz1.jpeg"
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : "किसान मूल्य पर उच्चतम गुणवत\nkisaan mooly par uchchatam gunavatta"
+  content : "किसान मूल्य पर उच्चतम गुणवत्ता वाले सभी अनाज, दालें और अन्य खाद्य उत्पाद खरीदें\nkisan mooly par ucchatam gunavaTTa vale sabhee Anaz, daalen aur any khaady utpaad khareeden."
+  image : "images/cta.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "All Products"
+    link : "products"
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Ingredients Of Our Products"
+  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dol."
+  materialItem:
+    # material item loop
+    - title : "गेहू और डलिया gehoon aur daliya"
+      image : "images/material/spuunfil1.jpg"
+      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+
+    # material item loop
+    - title : "Dal"
+      image : "images/material/zpg/images"
+      content : "Dal"
+
+########################### Advantage #########################
+advantage:
+  enable : true
+  title : "Advantages Of Using <br> Our Product"
+  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  image : "images/advantage.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Extremely lightweight"
+    - listItem : "Excellent breathability"
+    - listItem : "Can increase Cell activation"
+    - listItem : "Glowing Skin In 7 Days"
+    - listItem : "Increasing Glow Of Face"
+    - listItem : "More Beautiful Face Skin"
+
+
+######################## Promo Video ##########################
+video:
+  enable : true
+  title : "How To Use This Product?"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  videoThumb : "images/video-thumb.jpg"
+  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+
+######################## Products #############################
+products:
+  enable : true
+  title : "Products List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "suresh s sahu"
+      image : "images/clients/user1.png" # size 100px*100px
+      designation : "kranti general store"
+      content : "onlinekro ke sath hm Apne store ko kafi km smy me online kr ske"
+      rating : "five" # rating star, one to five
+
+    # testimonial item loop
+    - name : "riya surashta"
+      image : "images/clients/user1.png" # size 100px*100px
+      designation : "riya beauty parlour"
+      content : "online hone ke baD hmare customers bhi brre Aur idhar udhar zana bnd kr diya."
+      rating : "three" # rating star, one to five
+
+    # testimonial item loop
+    - name : "kamlesh singhaniya"
+      image : "images/clients/user1.png" # size 100px*100px
+      designation : "bright property dealer"
+      content : "maine apni dukan or dukan ke aaspas kafi banners lgaye lekin koi nhi aata tha. zb business ko online kiya toh muzhe lga ki itne grahko ko kaise smbhalu"
+      rating : "five" # rating star, one to five
+
+    # testimonial item loop
+    - name : "zha package & movers"
+      image : "images/clients/user1.png" # size 100px*100px
+      designation : "ceo & founder"
+      content : "onlinekro ke sath zb hm online hue Toh hmare bare me aaspas apartments mein logo ko pta chala. zisse hmare pas monthly 10-12 orders aane start hue."
+      rating : "four" # rating star, one to five
